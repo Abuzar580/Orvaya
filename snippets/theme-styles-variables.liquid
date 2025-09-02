@@ -49,6 +49,26 @@
     {{ accent_font_bold_italic | font_face: font_display: 'swap' }}
   {% endif %}
 
+  {% comment %} Custom Font 1 {% endcomment %}
+  {% assign custom_fonts = 'type_custom_font_1,type_custom_font_2,type_custom_font_3,type_custom_font_4,type_custom_font_5,type_custom_font_6' | split: ',' %}
+  {% assign existing_fonts = settings.type_body_font | append: ',' | append: settings.type_subheading_font | append: ',' | append: settings.type_heading_font | append: ',' | append: settings.type_accent_font %}
+  
+  {% for custom_font_id in custom_fonts %}
+    {% assign custom_font = settings[custom_font_id] %}
+    {% unless existing_fonts contains custom_font %}
+      {%- liquid
+        assign custom_font_bold = custom_font | font_modify: 'weight', 'bold'
+        assign custom_font_italic = custom_font | font_modify: 'style', 'italic'
+        assign custom_font_bold_italic = custom_font_bold | font_modify: 'style', 'italic'
+      %}
+
+      {{ custom_font | font_face: font_display: 'swap' }}
+      {{ custom_font_bold | font_face: font_display: 'swap' }}
+      {{ custom_font_italic | font_face: font_display: 'swap' }}
+      {{ custom_font_bold_italic | font_face: font_display: 'swap' }}
+    {% endunless %}
+  {% endfor %}
+
   :root {
     /* Page Layout */
     --sidebar-width: 25rem;
