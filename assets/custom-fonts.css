@@ -1,0 +1,59 @@
+/* Custom Fonts for Orvaya Theme */
+
+@font-face {
+  font-family: 'Documenta';
+  src: url('fonts/DocumentaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Victor Serif';
+  src: url('fonts/VictorSerif-40Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saga';
+  src: url('fonts/Siaga-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RENPackaging';
+  src: url('fonts/RENPackaging-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse Book';
+  src: url('fonts/SuisseBook.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('fonts/SuisseIntl-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font Family Variables */
+:root {
+  --font-documenta: 'Documenta', serif;
+  --font-victor-serif: 'Victor Serif', serif;
+  --font-saga: 'Saga', serif;
+  --font-renpackaging: 'RENPackaging', sans-serif;
+  --font-suisse-book: 'Suisse Book', serif;
+  --font-suisseintl: 'SuisseIntl', sans-serif;
+}
