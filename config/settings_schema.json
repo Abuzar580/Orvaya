@@ -353,46 +353,6 @@
       },
       {
         "type": "header",
-        "content": "Custom Fonts"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_1",
-        "default": "work_sans_n4",
-        "label": "Documenta Regular"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_2",
-        "default": "work_sans_n4",
-        "label": "Victor Serif"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_3",
-        "default": "work_sans_n4",
-        "label": "Saga"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_4",
-        "default": "work_sans_n4",
-        "label": "RENPackaging"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_5",
-        "default": "work_sans_n4",
-        "label": "Suisse Book"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_custom_font_6",
-        "default": "work_sans_n4",
-        "label": "SuisseIntl"
-      },
-      {
-        "type": "header",
         "content": "t:content.text_presets"
       },
       {
@@ -1578,40 +1538,8 @@
             "label": "t:options.body"
           },
           {
-            "value": "subheading",
-            "label": "t:options.subheading"
-          },
-          {
-            "value": "heading",
-            "label": "t:options.heading"
-          },
-          {
             "value": "accent",
             "label": "t:options.accent"
-          },
-          {
-            "value": "custom1",
-            "label": "Documenta Regular"
-          },
-          {
-            "value": "custom2",
-            "label": "Victor Serif"
-          },
-          {
-            "value": "custom3",
-            "label": "Saga"
-          },
-          {
-            "value": "custom4",
-            "label": "RENPackaging"
-          },
-          {
-            "value": "custom5",
-            "label": "Suisse Book"
-          },
-          {
-            "value": "custom6",
-            "label": "SuisseIntl"
           }
         ],
         "default": "body"
@@ -1706,40 +1634,8 @@
             "label": "t:options.body"
           },
           {
-            "value": "subheading",
-            "label": "t:options.subheading"
-          },
-          {
-            "value": "heading",
-            "label": "t:options.heading"
-          },
-          {
             "value": "accent",
             "label": "t:options.accent"
-          },
-          {
-            "value": "custom1",
-            "label": "Documenta Regular"
-          },
-          {
-            "value": "custom2",
-            "label": "Victor Serif"
-          },
-          {
-            "value": "custom3",
-            "label": "Saga"
-          },
-          {
-            "value": "custom4",
-            "label": "RENPackaging"
-          },
-          {
-            "value": "custom5",
-            "label": "Suisse Book"
-          },
-          {
-            "value": "custom6",
-            "label": "SuisseIntl"
           }
         ],
         "default": "body"

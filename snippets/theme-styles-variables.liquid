@@ -49,26 +49,6 @@
     {{ accent_font_bold_italic | font_face: font_display: 'swap' }}
   {% endif %}
 
-  {% comment %} Custom Font 1 {% endcomment %}
-  {% assign custom_fonts = 'type_custom_font_1,type_custom_font_2,type_custom_font_3,type_custom_font_4,type_custom_font_5,type_custom_font_6' | split: ',' %}
-  {% assign existing_fonts = settings.type_body_font | append: ',' | append: settings.type_subheading_font | append: ',' | append: settings.type_heading_font | append: ',' | append: settings.type_accent_font %}
-  
-  {% for custom_font_id in custom_fonts %}
-    {% assign custom_font = settings[custom_font_id] %}
-    {% unless existing_fonts contains custom_font %}
-      {%- liquid
-        assign custom_font_bold = custom_font | font_modify: 'weight', 'bold'
-        assign custom_font_italic = custom_font | font_modify: 'style', 'italic'
-        assign custom_font_bold_italic = custom_font_bold | font_modify: 'style', 'italic'
-      %}
-
-      {{ custom_font | font_face: font_display: 'swap' }}
-      {{ custom_font_bold | font_face: font_display: 'swap' }}
-      {{ custom_font_italic | font_face: font_display: 'swap' }}
-      {{ custom_font_bold_italic | font_face: font_display: 'swap' }}
-    {% endunless %}
-  {% endfor %}
-
   :root {
     /* Page Layout */
     --sidebar-width: 25rem;
@@ -113,26 +93,6 @@
     --font-accent--family: {{ settings.type_accent_font.family }}, {{ settings.type_accent_font.fallback_families }};
     --font-accent--style: {{ settings.type_accent_font.style }};
     --font-accent--weight: {{ settings.type_accent_font.weight }};
-    
-    /* Custom Font families */
-    --font-custom1--family: {{ settings.type_custom_font_1.family }}, {{ settings.type_custom_font_1.fallback_families }};
-    --font-custom1--style: {{ settings.type_custom_font_1.style }};
-    --font-custom1--weight: {{ settings.type_custom_font_1.weight }};
-    --font-custom2--family: {{ settings.type_custom_font_2.family }}, {{ settings.type_custom_font_2.fallback_families }};
-    --font-custom2--style: {{ settings.type_custom_font_2.style }};
-    --font-custom2--weight: {{ settings.type_custom_font_2.weight }};
-    --font-custom3--family: {{ settings.type_custom_font_3.family }}, {{ settings.type_custom_font_3.fallback_families }};
-    --font-custom3--style: {{ settings.type_custom_font_3.style }};
-    --font-custom3--weight: {{ settings.type_custom_font_3.weight }};
-    --font-custom4--family: {{ settings.type_custom_font_4.family }}, {{ settings.type_custom_font_4.fallback_families }};
-    --font-custom4--style: {{ settings.type_custom_font_4.style }};
-    --font-custom4--weight: {{ settings.type_custom_font_4.weight }};
-    --font-custom5--family: {{ settings.type_custom_font_5.family }}, {{ settings.type_custom_font_5.fallback_families }};
-    --font-custom5--style: {{ settings.type_custom_font_5.style }};
-    --font-custom5--weight: {{ settings.type_custom_font_5.weight }};
-    --font-custom6--family: {{ settings.type_custom_font_6.family }}, {{ settings.type_custom_font_6.fallback_families }};
-    --font-custom6--style: {{ settings.type_custom_font_6.style }};
-    --font-custom6--weight: {{ settings.type_custom_font_6.weight }};
 
     /* Margin sizes */
     --font-h1--spacing: 0.25em;
