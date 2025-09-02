@@ -95,22 +95,22 @@
     --font-accent--weight: {{ settings.type_accent_font.weight }};
 
     /* Custom Font families */
-    --font-custom1--family: var(--font-documenta);
+    --font-custom1--family: {% if settings.custom_font_1 == 'documenta' %}'Documenta', serif{% else %}var(--font-body--family){% endif %};
     --font-custom1--style: normal;
     --font-custom1--weight: 400;
-    --font-custom2--family: var(--font-victor-serif);
+    --font-custom2--family: {% if settings.custom_font_2 == 'victor-serif' %}'Victor Serif', serif{% else %}var(--font-body--family){% endif %};
     --font-custom2--style: normal;
     --font-custom2--weight: 400;
-    --font-custom3--family: var(--font-saga);
+    --font-custom3--family: {% if settings.custom_font_3 == 'saga' %}'Saga', serif{% else %}var(--font-body--family){% endif %};
     --font-custom3--style: normal;
     --font-custom3--weight: 400;
-    --font-custom4--family: var(--font-renpackaging);
+    --font-custom4--family: {% if settings.custom_font_4 == 'renpackaging' %}'RENPackaging', sans-serif{% else %}var(--font-body--family){% endif %};
     --font-custom4--style: normal;
     --font-custom4--weight: 400;
-    --font-custom5--family: var(--font-suisse-book);
+    --font-custom5--family: {% if settings.custom_font_5 == 'suisse-book' %}'Suisse Book', serif{% else %}var(--font-body--family){% endif %};
     --font-custom5--style: normal;
     --font-custom5--weight: 400;
-    --font-custom6--family: var(--font-suisseintl);
+    --font-custom6--family: {% if settings.custom_font_6 == 'suisseintl' %}'SuisseIntl', sans-serif{% else %}var(--font-body--family){% endif %};
     --font-custom6--style: normal;
     --font-custom6--weight: 400;
 
