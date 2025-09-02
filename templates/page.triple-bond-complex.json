@@ -1,0 +1,799 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_zxDhR8": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "bottom-left",
+        "text_position_mobile": "over-the-video",
+        "video_link_bg": "shopify:\/\/files\/videos\/LP_ANTHEM_2_DESKTOP_2880x1536_15sec_v003.mp4",
+        "video_link_bg_mobile": "shopify:\/\/files\/videos\/LP_ANTHEM_2_MOBILE_788x1398_15sec_v002_DotwackRemoved.mp4",
+        "video_popup_link": "",
+        "text_color": "text-light",
+        "overlay_opacity": 0,
+        "limitTextoverlaytoBox": false,
+        "limitTextoverlayBoxPadding": 0,
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "Shop Now",
+        "button_link": "shopify:\/\/products\/triple-bond-complex",
+        "button_color": "btn--primary",
+        "button_style": "btn--solid",
+        "button_size": "btn--large"
+      }
+    },
+    "section_slideshow_QeiANb": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_WYyddG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024-TBC_LP_Tile2_DESK_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/2024-TBC_LP_Tile2_MBL_1_1.png",
+            "text_width": "normal",
+            "text_position": "left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_alignment": "center",
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "title": "<h2>The future of hair repair.<\/h2>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "<p>1 product, 1x per week for 8x stronger hair*<\/p>",
+            "button_1_text": "Shop All",
+            "entire_image_is_link": true,
+            "button_1_link": "shopify:\/\/products\/triple-bond-complex",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WYyddG"
+      ],
+      "settings": {
+        "slide_height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "original-height-mobile",
+        "show_nav_dots": false,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "text_position_mobile": "over-the-image",
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": false,
+        "heading_size": 120
+      }
+    },
+    "section_custom_content_Qz93kX": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_qiipxt": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify:\/\/files\/videos\/2022-06_Brooklyn_StrengthTest_LP-com_1080x1080_3.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "content-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "50"
+          }
+        },
+        "text_GW8pK3": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Damage, undone.",
+            "heading_size": 100,
+            "text": "<p>For all hair types and levels of damage.<\/p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "video_qiipxt",
+        "text_GW8pK3"
+      ],
+      "settings": {
+        "title": "",
+        "text_size": 120,
+        "text_alignment": "text-left",
+        "height": "five-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "collection_list": [
+
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_custom_content_UyYTQh": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_f9UR9K": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify:\/\/files\/videos\/TBC_Kyrsten_B&A_1920x1080.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "full-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "66"
+          }
+        },
+        "text_FtcUEr": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Clinically proven to rebuild the structure of your hair",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "video_f9UR9K",
+        "text_FtcUEr"
+      ],
+      "settings": {
+        "title": "The proof",
+        "text_size": 120,
+        "text_alignment": "text-left",
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "collection_list": [
+
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_slideshow_jbTVYG": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_7tekQB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-07_Brooklyn_LP_Tile5_DESK_text.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/2022-07_Brooklyn_LP_Tile5_MBL_text.jpg",
+            "text_width": "normal",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_alignment": "center",
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "",
+            "entire_image_is_link": true,
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7tekQB"
+      ],
+      "settings": {
+        "slide_height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "original-height-mobile",
+        "show_nav_dots": false,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "text_position_mobile": "over-the-image",
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": false,
+        "heading_size": 120
+      }
+    },
+    "section_collection_JGJHJ6": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "restore",
+        "products_layout": "grid",
+        "number_of_products": 2,
+        "products_per_row_on_desktop": 2,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>For even better results, pair with<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_testimonials_frDhja": {
+      "type": "section-testimonials",
+      "blocks": {
+        "testimonial_wk4BDf": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>“It’s amazing! I literally just looked at my hair yesterday and realized how much healthier and shinier it looks after using it for a month.” <\/p>",
+            "showbordertestimonial": false,
+            "block_color_testimonial": "#ca879d",
+            "text_color_testimonial": "",
+            "customer_name": "Christine R.",
+            "subheading": ""
+          }
+        },
+        "testimonial_VYUtnb": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>“I loved my experience with Triple Bond Complex! It has made my hair so much shinier. My hair feels stronger and is much easier to brush\/comb.\"<\/p>",
+            "showbordertestimonial": false,
+            "block_color_testimonial": "#eea859",
+            "text_color_testimonial": "",
+            "customer_name": "Brooke T.",
+            "subheading": ""
+          }
+        },
+        "testimonial_KfLbeP": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>“I have had several people comment on how sleek my hair looks! Triple Bond Complex makes my hair look and feel so healthy. I love it!\"<\/p>",
+            "showbordertestimonial": false,
+            "block_color_testimonial": "#7c729c",
+            "text_color_testimonial": "#ffffff",
+            "customer_name": "Alisha A.",
+            "subheading": ""
+          }
+        },
+        "testimonial_ggxbkd": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>“Triple Bond Complex helped my hair look and feel healthy! My hair has improved in texture and look. I am very impressed with the product!\"<\/p>",
+            "showbordertestimonial": false,
+            "block_color_testimonial": "#756c69",
+            "text_color_testimonial": "#ffffff",
+            "customer_name": "Caitlin E.",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_wk4BDf",
+        "testimonial_VYUtnb",
+        "testimonial_KfLbeP",
+        "testimonial_ggxbkd"
+      ],
+      "settings": {
+        "title": "The reviews are in",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_a8YJer": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_GMNVhg": {
+          "type": "text_block",
+          "settings": {
+            "tab_select": "tab1",
+            "image": "shopify:\/\/shop_images\/Triple_Bond_Blog1_DESK.jpg",
+            "title": "The Technology Behind Triple Bond Complex",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.livingproof.com\/hair-101\/triple-bond-complex-technology.html",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "padding_button": 0,
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_amJ7fU": {
+          "type": "text_block",
+          "settings": {
+            "tab_select": "tab1",
+            "image": "shopify:\/\/shop_images\/Triple_Bond_Blog2_DESK.jpg",
+            "title": "Hair Bonds 101: What They Are and How to Repair Them",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.livingproof.com\/hair-101\/hair-bonds-guide.html",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "padding_button": 0,
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_dapC6H": {
+          "type": "text_block",
+          "settings": {
+            "tab_select": "tab1",
+            "image": "shopify:\/\/shop_images\/Triple_Bond_Blog3_DESK.jpg",
+            "title": "Triple Bond Complex Stylist Testimonials",
+            "text": "",
+            "button_text": "",
+            "button_link": "https:\/\/www.livingproof.com\/hair-101\/triple-bond-complex-testimonials.html",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "padding_button": 0,
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_GMNVhg",
+        "text_block_amJ7fU",
+        "text_block_dapC6H"
+      ],
+      "settings": {
+        "title": "Hair 101",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "tab1": "",
+        "tab2": "",
+        "tab3": "",
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_6QBHRR": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_WU39q9": {
+          "type": "text",
+          "settings": {
+            "title": "Who is Triple Bond Complex for?",
+            "text": "<p>Triple Bond Complex is for all hair types and levels of damage.<\/p>"
+          }
+        },
+        "text_CD9fAx": {
+          "type": "text",
+          "settings": {
+            "title": "How much Triple Bond Complex should I use?",
+            "text": "<p>The average use per application is 2-5 pumps depending on hair length, density & damage. It is recommended to start with 2 pumps and add more as needed.<\/p>"
+          }
+        },
+        "text_VdVJKV": {
+          "type": "text",
+          "settings": {
+            "title": "How does Triple Bond Complex work?",
+            "text": "<p>This weekly leave-in treatment uses a breakthrough, patent pending technology to construct a 3D network within strands, which improves their core strength by building new bonds and delivers both immediate repair and lasting protection against future damage—for hair that looks and feels like new.<\/p>"
+          }
+        },
+        "text_VCMPwb": {
+          "type": "text",
+          "settings": {
+            "title": "What happens if I don’t wait the 10 minutes after applying Triple Bond Complex before blow drying my hair?",
+            "text": "<p>We recommend leaving Triple Bond Complex on for 10<br\/>minutes for the active to properly penetrate to the hair’s cortex. <\/p>"
+          }
+        },
+        "text_M87HP6": {
+          "type": "text",
+          "settings": {
+            "title": "Will I see immediate results after using Triple Bond Complex?",
+            "text": "<p>Yes,after using Triple Bond complex, you will have immediate results both inside &amp; out! Your hair will be stronger and resilient against damage while<br\/>looking and feeling healthier.<\/p>"
+          }
+        },
+        "text_xhKqLy": {
+          "type": "text",
+          "settings": {
+            "title": "How often should I use Triple Bond Complex?",
+            "text": "<p>We recommend that you use Triple Bond Complex weekly. However, the product can be used as needed for more damage prone hair types.<\/p>"
+          }
+        },
+        "text_3jy7Xj": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use Triple Bond Complex daily?",
+            "text": "<p>Triple Bond complex does not need to be applied on a daily basis. This treatment is a highly concentrated and progressive formula that delivers immediate aesthetic benefits to the hair as well as strengthening benefits that last through multiple shampoos. <\/p>"
+          }
+        },
+        "text_jtULiL": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex safe to use on extensions?",
+            "text": "<p>Yes, Triple Bond Complex can be applied to hair extensions. It is recommended to keep the product away from the roots for tape-in extensions to avoid breaking down the adhesive. <\/p>"
+          }
+        },
+        "text_RJm46e": {
+          "type": "text",
+          "settings": {
+            "title": "How many times should Triple Bond Complex be used to receive optimal results?",
+            "text": "<p>You will see an immediate improvement in your hair with the first use. With continued use, you will experience stronger &amp; healthier hair. <\/p>"
+          }
+        },
+        "text_afVgDN": {
+          "type": "text",
+          "settings": {
+            "title": "Should I use a clarifying shampoo before using Triple Bond Complex?",
+            "text": "<p>Triple Bond Complex should be applied to clean, damp hair and does not need to be applied to clarified hair. However, pairing Triple Bond Complex with Perfect hair Day™ Triple Detox Shampoo and Perfect hair Day™ Weightless mask is a great way to reset and strengthen your hair weekly.<\/p>"
+          }
+        },
+        "text_Rrt3Ee": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need to use conditioner before Triple Bond Complex? Can I replace my conditioner with Triple Bond Complex?",
+            "text": "<p>Yes, Triple Bond Complex should be applied to freshly washed and conditioned hair.<br\/>This is not a replacement for a rinse out conditioner.<\/p>"
+          }
+        },
+        "text_HJ3tUx": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use styling products with Triple Bond Complex?",
+            "text": "<p>Yes, you can use Triple Bond Complex with styling products. We recommend applying Triple Bond Complex first, waiting 10 minutes, then applying desired treatment and styling products and style as usual.<\/p>"
+          }
+        },
+        "text_rtARy6": {
+          "type": "text",
+          "settings": {
+            "title": "What order do I apply my products if I usually use Restore Perfecting Spray or a detangler to comb through my hair?",
+            "text": "<p>We recommend applying Triple Bond Complex first, waiting 10 minutes, then applying Restore Perfecting Spray or a detangler. <\/p>"
+          }
+        },
+        "text_PETRDX": {
+          "type": "text",
+          "settings": {
+            "title": "What order should I use the products from my hair routine when using Triple Bond Complex?",
+            "text": "<p>Triple Bond Complex should be applied on freshly washed and conditioned hair. After applying Triple Bond Complex, wait 10 minutes before applying other stylers and treatments. <\/p>"
+          }
+        },
+        "text_tAJDHR": {
+          "type": "text",
+          "settings": {
+            "title": "If I put products on before Triple Bond Complex will that change the performance of the product?",
+            "text": "<p>The performance of styling products could be impacted and diluted if applied prior to Triple Bond Complex.<\/p>"
+          }
+        },
+        "text_7MhyJR": {
+          "type": "text",
+          "settings": {
+            "title": "Can I overuse Triple Bond Complex?",
+            "text": "<p>Triple Bond Complex is a highly concentrated product. We recommend starting with 2 pumps and apply more as needed. This is not a leave in conditioner, so you should not use the same amount as you would for that.<\/p>"
+          }
+        },
+        "text_6yzJYB": {
+          "type": "text",
+          "settings": {
+            "title": "Can I over proteinize my hair with this ? Does it contain protein or keratin?",
+            "text": "<p>Triple Bond Complex does not contain Keratin or any other proteins, nor does it cause buildup of protein on the hair surface. <\/p>"
+          }
+        },
+        "text_Fignqd": {
+          "type": "text",
+          "settings": {
+            "title": "What is the difference between Triple Bond Complex and a leave-in conditioner?",
+            "text": "<p>Triple Bond complex is a weekly, intensive hair strengthening treatment that builds bonds and fortifies the hair fiber from cortex to cuticle. Leave-in<br\/>conditioners are designed to deliver additional conditioning benefits to the<br\/>surface of the hair fiber, such as detangling, smoothness, and softness. <\/p>"
+          }
+        },
+        "text_3GPinV": {
+          "type": "text",
+          "settings": {
+            "title": "What is the difference between Triple Bond Complex and Restore Repair Mask?",
+            "text": "<p>Restore Repair Mask is a rinse off hair mask that addresses moderate to extreme dryness and\/or damage. Triple Bond complex is a weekly, intensive hair strengthening treatment that builds bonds and fortifies the hair fiber from cortex to cuticle. <\/p>"
+          }
+        },
+        "text_T7MYmb": {
+          "type": "text",
+          "settings": {
+            "title": "Will Triple Bond Complex weigh my hair down?",
+            "text": "<p>No, Triple Bond Complex will not weigh your hair down. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WU39q9",
+        "text_CD9fAx",
+        "text_VdVJKV",
+        "text_VCMPwb",
+        "text_M87HP6",
+        "text_xhKqLy",
+        "text_3jy7Xj",
+        "text_jtULiL",
+        "text_RJm46e",
+        "text_afVgDN",
+        "text_Rrt3Ee",
+        "text_HJ3tUx",
+        "text_rtARy6",
+        "text_PETRDX",
+        "text_tAJDHR",
+        "text_7MhyJR",
+        "text_6yzJYB",
+        "text_Fignqd",
+        "text_3GPinV",
+        "text_T7MYmb"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "FAQ",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "collection_list": [
+
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": "",
+        "conditionalDisplayLogic_json": "conditionalDisplayLogic_json-faq"
+      }
+    },
+    "section_accordions_KDALka": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_CP4xYQ": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex sulfate-free?",
+            "text": "<p>Yes, Triple Bond Complex is sulfate-free.<\/p>"
+          }
+        },
+        "text_8GCbBE": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex paraben-free?",
+            "text": "<p>Yes, Triple Bond Complex is paraben-free.<\/p>"
+          }
+        },
+        "text_iBGjAy": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex vegan & cruelty-free?",
+            "text": "<p>Yes, Triple Bond Complex is vegan & cruelty-free.<\/p>"
+          }
+        },
+        "text_KURUbr": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex silicone-free?",
+            "text": "<p>Yes, Triple Bond Complex is silicone-free.<\/p>"
+          }
+        },
+        "text_B96FYV": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex safe for colour or chemically treated hair?",
+            "text": "<p>Yes, Triple Bond Complex is safe for colour and chemically treated hair.<\/p>"
+          }
+        },
+        "text_eBKArA": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex keratin treatment safe?",
+            "text": "<p>Yes, Triple Bond Complex is safe for keratin treatments.<\/p>"
+          }
+        },
+        "text_Hg4UUQ": {
+          "type": "text",
+          "settings": {
+            "title": "Is Triple Bond Complex recyclable?",
+            "text": "<p>Yes, Triple Bond Complex is recyclable through our partnership with TerraCycle. For more information, please visit livingproof.com\/sustainability.<\/p>"
+          }
+        },
+        "text_4rJqCg": {
+          "type": "text",
+          "settings": {
+            "title": "What is the fragrance used in Triple Bond Complex?",
+            "text": "<p>The fragrance in Triple Bond Complex has a fresh citrus opening with a floral heart and a warm base.<\/p>"
+          }
+        },
+        "text_XXUFYF": {
+          "type": "text",
+          "settings": {
+            "title": "What is the pH level of Triple Bond Complex?",
+            "text": "<p>The pH of Triple Bond Complex is 4.3.<\/p>"
+          }
+        },
+        "text_3GKEcw": {
+          "type": "text",
+          "settings": {
+            "title": "How long will a bottle of Triple Bond Complex last?",
+            "text": "<p>A full size bottle of Triple Bond Complex will last 90+ days. A travel size bottle of Triple Bond Complex will last about 30 days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CP4xYQ",
+        "text_8GCbBE",
+        "text_iBGjAy",
+        "text_KURUbr",
+        "text_B96FYV",
+        "text_eBKArA",
+        "text_Hg4UUQ",
+        "text_4rJqCg",
+        "text_XXUFYF",
+        "text_3GKEcw"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "collection_list": [
+
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": "",
+        "conditionalDisplayLogic_json": "conditionalDisplayLogic_json-faq"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_video_zxDhR8",
+    "section_slideshow_QeiANb",
+    "section_custom_content_Qz93kX",
+    "section_custom_content_UyYTQh",
+    "section_slideshow_jbTVYG",
+    "section_collection_JGJHJ6",
+    "section_testimonials_frDhja",
+    "section_columns_a8YJer",
+    "section_accordions_6QBHRR",
+    "section_accordions_KDALka"
+  ]
+}

@@ -1,0 +1,743 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-third-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_NbcTcQ": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_3dhCzM": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>{{ collection.title }}</p>",
+            "size": 180,
+            "size_mobile": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_NgrQcW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.tag_line.value }}</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dhCzM",
+        "text_NgrQcW"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "image": "{{ collection.metafields.custom.banner_image_desktop.value }}",
+        "image_mobile": "{{ collection.metafields.custom.banner_image_mobile.value }}",
+        "enable_zoom_animation": true,
+        "text_width": "narrow",
+        "text_position": "left-center",
+        "text_position_vertical_mobile": "same_as_desktop",
+        "text_alignment": "left",
+        "text_alignment_mobile": "default",
+        "text_position_mobile": "under-the-image",
+        "text_color": "text-dark",
+        "overlay_opacity": 0,
+        "limitTextoverlaytoBox": false,
+        "limitTextoverlayBoxPadding": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [
+
+        ],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "promo_KRyXWd": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "perfect-hair-day"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/PHD_PLP_Intruptr_DESK_RTNA.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_VWDfVE": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "curl"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/Curl_PLP_Intruptr_DESK_RTNA.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_7LyAmV": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "full"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/Full_PLP_Intruptr_DESK.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_dF6FwG": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "no-frizz"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/NoFrizz_PLP_Intruptr_DESK_RTNA_new.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_qepxmq": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "restore"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/Restore_PLP_Intruptr_DESK_RTNA.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_ccfbrC": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "scalp-care"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/Scalp_Desk_828x1024_7ffabf72-8e99-4fa5-93f9-6d84e1bcaac3.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        },
+        "promo_ieAKQW": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+              "style-lab"
+            ],
+            "position": 3,
+            "width": "auto",
+            "mobile_height_enable": false,
+            "mobile_height": "original-height_mob",
+            "text_position_mobile": "over-the-image",
+            "image": "shopify://shop_images/StyleLab_PLP_Intruptr_DESK_RTNA.jpg",
+            "text_alignment_desktop": "center",
+            "text_alignment_mobile": "default",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_position": "bottom-left",
+            "text_position_vertical_mobile": "same_as_desktop",
+            "text_size": 100,
+            "text_color": "text-light",
+            "overlay_opacity": 0,
+            "layout": "stacked",
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "enable_video_button": true,
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "promo_KRyXWd",
+        "promo_VWDfVE",
+        "promo_7LyAmV",
+        "promo_dF6FwG",
+        "promo_qepxmq",
+        "promo_ccfbrC",
+        "promo_ieAKQW"
+      ],
+      "custom_css": [
+        ".product-grid-item__price {color: #707070;}"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "hide_rating_and_reviews": false,
+        "enable_add_to_cart": false,
+        "collection_btn_text": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small",
+        "cta_icon": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "open",
+        "show_more": false,
+        "filter_mode": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_4rQrUn": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_B6eGJC": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify://files/videos/2021-12_Restore_PerfectingSpray_BASlider_1744x1080_b664cc42-87dc-4d65-8c4f-a65ab5f254c6.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "full-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 10,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "66"
+          }
+        },
+        "text_ekWagC": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Detangles, hydrates + protects.",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "video_B6eGJC",
+        "text_ekWagC"
+      ],
+      "settings": {
+        "title": "The proof",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "collection_list": [
+          "restore"
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_custom_content_fmdXjY": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_brCBKw": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify://files/videos/2021-12_NoFrizz_Oil_BASlider_16x9_1.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "full-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 10,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "66"
+          }
+        },
+        "text_XKfU9L": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Hydrates + smooths hair.",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "video_brCBKw",
+        "text_XKfU9L"
+      ],
+      "settings": {
+        "title": "The proof",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "collection_list": [
+          "no-frizz"
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_custom_content_M8pM6X": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_VUVEcc": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify://files/videos/2021-12_Full_DVTS_BASlider_16x9.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "full-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 10,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "66"
+          }
+        },
+        "text_4VxCAr": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Adds weightless volume + texture.",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "video_VUVEcc",
+        "text_4VxCAr"
+      ],
+      "settings": {
+        "title": "The proof",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "collection_list": [
+          "full"
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_custom_content_Nmr4yF": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_AwUDGA": {
+          "type": "video",
+          "settings": {
+            "text_position": "middle-center",
+            "video_link_bg": "shopify://files/videos/2021-12_PHD_DS_BASlider_16x9_1.mp4",
+            "retain_ratio_video": true,
+            "retain_width_option": "full-width",
+            "video_popup_link": "",
+            "text_color": "text-light",
+            "overlay_opacity": 10,
+            "limitTextoverlaytoBox": false,
+            "limitTextoverlayBoxPadding": 0,
+            "title": "",
+            "video_text": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small",
+            "column_width": "66"
+          }
+        },
+        "text_JCrhd4": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Absorbs oil, sweat + odor.",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": "#ffffff",
+            "column_width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "video_AwUDGA",
+        "text_JCrhd4"
+      ],
+      "settings": {
+        "title": "The proof",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "collection_list": [
+          "perfect-hair-day"
+        ],
+        "product_list": [
+
+        ],
+        "conditionalDisplayLogic": "conditionalDisplayLogic-off",
+        "conditionalDisplayLogic_text": ""
+      }
+    },
+    "section_text_KGpkQL": {
+      "type": "section-text",
+      "blocks": {
+        "text_iAmKM9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.about_the_collection | metafield_tag }}",
+            "size": 90
+          }
+        }
+      },
+      "block_order": [
+        "text_iAmKM9"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_blog_GrdhrC": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "blog": "",
+        "filter_by": "tags",
+        "filter_vlue": "",
+        "blog_style": "photo",
+        "show_mobile_blogs_list": true,
+        "image_aspect_ratio": 0.7,
+        "rows": 1,
+        "columns": 3,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_comments_count": false,
+        "default_color": "none",
+        "heading": "Hair 101",
+        "button_text": "View All Posts",
+        "button_color": "btn--white",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "bg_color": "#ffffff",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_banner_image_NbcTcQ",
+    "subcollections",
+    "main",
+    "section_custom_content_4rQrUn",
+    "section_custom_content_fmdXjY",
+    "section_custom_content_M8pM6X",
+    "section_custom_content_Nmr4yF",
+    "section_text_KGpkQL",
+    "section_blog_GrdhrC"
+  ]
+}

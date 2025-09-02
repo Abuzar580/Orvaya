@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "section_video_HjYtLU": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "shopify:\/\/files\/videos\/LP.com_YFH-Paris_16x9_6s.mp4",
+        "video_link_bg_mobile": "shopify:\/\/files\/videos\/LP.com_YFH-Paris_9x16_6s.mp4",
+        "video_popup_link": "",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "original-height",
+        "text_position": "bottom-right",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 0,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [
+
+        ],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 30,
+        "padding_bottom": 14
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "promo_dzrEkJ": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+
+            ],
+            "image": "shopify:\/\/shop_images\/2024-02_Paris_PLP_Interruptor1_DESK_1.jpg",
+            "position": 3,
+            "width": "auto",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 0,
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "promo_CKtHr4": {
+          "type": "promo",
+          "settings": {
+            "collection_list": [
+
+            ],
+            "image": "shopify:\/\/shop_images\/2024-02_Paris_PLP_Interruptor2_DESK_1.jpg",
+            "position": 7,
+            "width": "auto",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "text_color": "text-dark",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 0,
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "promo_dzrEkJ",
+        "promo_CKtHr4"
+      ],
+      "custom_css": [
+        ".product-grid-item__price {color: #707070;}"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "enable_sorting": false,
+        "enable_filters": false,
+        "filters_layout": "open",
+        "show_more": false,
+        "filter_mode": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_video_HjYtLU",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}
