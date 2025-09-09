@@ -1,0 +1,179 @@
+/* Custom Font Face Declarations - 6 Required Fonts */
+
+/* Documenta Font Family */
+@font-face {
+  font-family: 'Documenta';
+  src: url('DocumentaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* RENPackaging Font Family */
+@font-face {
+  font-family: 'RENPackaging';
+  src: url('RENPackaging-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RENPackaging';
+  src: url('RENPackaging-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RENPackaging';
+  src: url('RENPackaging-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Siaga Font Family */
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Light-Italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Regular-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Medium-Italic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Siaga';
+  src: url('Siaga-Bold-Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Suisse Font Family */
+@font-face {
+  font-family: 'Suisse';
+  src: url('SuisseLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('SuisseBook.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('SuisseIntl-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('SuisseSemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('SuisseBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* VictorSerif Font Family */
+@font-face {
+  font-family: 'VictorSerif';
+  src: url('VictorSerif-40Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VictorSerif';
+  src: url('VictorSerif-45RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Custom Font Utility Classes */
+.font-documenta {
+  font-family: 'Documenta', serif;
+}
+
+.font-ren-packaging {
+  font-family: 'RENPackaging', sans-serif;
+}
+
+.font-siaga {
+  font-family: 'Siaga', sans-serif;
+}
+
+.font-suisse {
+  font-family: 'Suisse', sans-serif;
+}
+
+.font-victor-serif {
+  font-family: 'VictorSerif', serif;
+}

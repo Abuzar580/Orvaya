@@ -334,10 +334,88 @@
         "label": "t:options.body"
       },
       {
+        "type": "checkbox",
+        "id": "apply_custom_body_font",
+        "label": "Apply custom font for body text?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "custom_body_font",
+        "label": "Custom Body Font",
+        "options": [
+          {
+            "value": "Documenta",
+            "label": "Documenta Regular"
+          },
+          {
+            "value": "RENPackaging",
+            "label": "RENPackaging"
+          },
+          {
+            "value": "Siaga",
+            "label": "Siaga"
+          },
+          {
+            "value": "Suisse",
+            "label": "Suisse Book"
+          },
+          {
+            "value": "SuisseIntl",
+            "label": "SuisseIntl"
+          },
+          {
+            "value": "VictorSerif",
+            "label": "Victor Serif"
+          }
+        ],
+        "default": "Documenta",
+        "visible_if": "{{ settings.apply_custom_body_font == true }}"
+      },
+      {
         "type": "font_picker",
         "id": "type_subheading_font",
         "default": "work_sans_n5",
         "label": "t:options.subheading"
+      },
+      {
+        "type": "checkbox",
+        "id": "apply_custom_subheading_font",
+        "label": "Apply custom font for subheadings?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "custom_subheading_font",
+        "label": "Custom Subheading Font",
+        "options": [
+          {
+            "value": "Documenta",
+            "label": "Documenta Regular"
+          },
+          {
+            "value": "RENPackaging",
+            "label": "RENPackaging"
+          },
+          {
+            "value": "Siaga",
+            "label": "Siaga"
+          },
+          {
+            "value": "Suisse",
+            "label": "Suisse Book"
+          },
+          {
+            "value": "SuisseIntl",
+            "label": "SuisseIntl"
+          },
+          {
+            "value": "VictorSerif",
+            "label": "Victor Serif"
+          }
+        ],
+        "default": "Documenta",
+        "visible_if": "{{ settings.apply_custom_subheading_font == true }}"
       },
       {
         "type": "font_picker",
@@ -346,10 +424,88 @@
         "label": "t:options.heading"
       },
       {
+        "type": "checkbox",
+        "id": "apply_custom_heading_font",
+        "label": "Apply custom font for headings?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "custom_heading_font",
+        "label": "Custom Heading Font",
+        "options": [
+          {
+            "value": "Documenta",
+            "label": "Documenta Regular"
+          },
+          {
+            "value": "RENPackaging",
+            "label": "RENPackaging"
+          },
+          {
+            "value": "Siaga",
+            "label": "Siaga"
+          },
+          {
+            "value": "Suisse",
+            "label": "Suisse Book"
+          },
+          {
+            "value": "SuisseIntl",
+            "label": "SuisseIntl"
+          },
+          {
+            "value": "VictorSerif",
+            "label": "Victor Serif"
+          }
+        ],
+        "default": "Documenta",
+        "visible_if": "{{ settings.apply_custom_heading_font == true }}"
+      },
+      {
         "type": "font_picker",
         "id": "type_accent_font",
         "default": "anonymous_pro_n4",
         "label": "t:options.accent"
+      },
+      {
+        "type": "checkbox",
+        "id": "apply_custom_accent_font",
+        "label": "Apply custom font for accent elements?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "custom_accent_font",
+        "label": "Custom Accent Font",
+        "options": [
+          {
+            "value": "Documenta",
+            "label": "Documenta Regular"
+          },
+          {
+            "value": "RENPackaging",
+            "label": "RENPackaging"
+          },
+          {
+            "value": "Siaga",
+            "label": "Siaga"
+          },
+          {
+            "value": "Suisse",
+            "label": "Suisse Book"
+          },
+          {
+            "value": "SuisseIntl",
+            "label": "SuisseIntl"
+          },
+          {
+            "value": "VictorSerif",
+            "label": "Victor Serif"
+          }
+        ],
+        "default": "Documenta",
+        "visible_if": "{{ settings.apply_custom_accent_font == true }}"
       },
       {
         "type": "header",
