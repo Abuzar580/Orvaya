@@ -6,93 +6,92 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
-{
+ */{
   "sections": {
-    "section_breadcrumb_tqbnWE": {
-      "type": "section-breadcrumb",
-      "name": "Breadcrumb",
+    "section": {
+      "type": "main-blog-post",
+      "blocks": {
+        "blog-post-title": {
+          "type": "text",
+          "name": "Title",
+          "static": true,
+          "settings": {
+            "text": "<h1>{{ article.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "blog-post-details": {
+          "type": "_blog-post-info-text",
+          "name": "Details",
+          "static": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "type_preset": "",
+            "alignment": "center",
+            "show_alignment": true,
+            "padding-block-start": 24,
+            "padding-block-end": 0
+          },
+          "blocks": {}
+        },
+        "blog-post-image": {
+          "type": "image",
+          "name": "Featured image",
+          "static": true,
+          "settings": {
+            "image_ratio": "landscape",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "blog-post-content": {
+          "type": "_blog-post-content",
+          "static": true,
+          "settings": {},
+          "blocks": {}
+        }
+      },
       "settings": {
-        "breadcrumb_root_text": "",
-        "breadcrumb_root_link": "",
-        "breadcrumb_display_product_title": true,
-        "device_visibility": "desktop_mobile",
-        "width": "wrapper--full-padded",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "main": {
-      "type": "article",
-      "settings": {
-        "show_date": false,
-        "show_author": false,
-        "show_tags": true,
-        "show_share_button": true,
-        "text": "Share",
-        "bg_color_secondary": false,
-        "padding_top": 64,
-        "padding_bottom": 0
-      }
-    },
-    "section_blog_fqNW8V": {
-      "type": "section-blog",
-      "name": "Blog posts",
-      "settings": {
-        "blog": "hair-101",
-        "filter_by": "tags",
-        "filter_vlue": "{{ article.metafields.custom.related_blog_posts_by_tag.value }}",
-        "blog_style": "standard",
-        "show_mobile_blogs_list": true,
-        "image_aspect_ratio": 1,
-        "rows": 1,
-        "columns": 3,
-        "show_tags": true,
-        "show_author": false,
-        "show_date": false,
-        "show_comments_count": false,
-        "show_excerpt": false,
-        "default_color": "none",
-        "heading": "Read Also",
-        "button_text": "View all posts",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "bg_color": "",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 64,
-        "padding_bottom": 0,
-        "show_mobile_list_images": true
-      }
-    },
-    "recommended-posts": {
-      "type": "section-recommended-posts",
-      "disabled": true,
-      "settings": {
-        "posts_type": "paging",
-        "title": "",
-        "default_color": "accent",
-        "blog_style": "photo",
-        "image_aspect_ratio": 1.3,
-        "show_rss_icon": false,
-        "show_date": true,
-        "show_author": true,
-        "show_tags": true,
-        "show_comments_count": false,
-        "show_excerpt": true,
-        "bg_color_secondary": false,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
       }
     }
   },
   "order": [
-    "section_breadcrumb_tqbnWE",
-    "main",
-    "section_blog_fqNW8V",
-    "recommended-posts"
+    "section"
   ]
 }
